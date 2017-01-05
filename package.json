@@ -23,5 +23,14 @@
     "gulp-util": "^3.0.8",
     "jshint": "^2.9.4",
     "vinyl-source-stream": "^1.1.0"
-  }
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/suzirubi/dinosaur.git"
+  },
+  "bugs": {
+    "url": "https://github.com/suzirubi/dinosaur/issues"
+  },
+  "homepage": "https://github.com/suzirubi/dinosaur#readme",
+  "dependencies": {}
 }

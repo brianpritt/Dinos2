@@ -1,9 +1,9 @@
-# CSS Week Five Independent Project
-_*Epicodus CSS Capstone Independent Project*_
+# Javascript Week One, Day Three and Four
+_*Epicodus Javascript week one 2 day API project*_
 
-_*Project Name: Kerr Calendar*_
+_*Project Name: API-Driven App: Dino Ipsum*_
 
-_*Project Author: Suzi Rubino*_
+_*Project Author: Suzi Rubino and Brian Pritt*_
 
 ##Project’s Purpose or Goal:
 

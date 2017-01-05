@@ -5,6 +5,7 @@ function Dino(paragraphSize, nameList) {
 Dino.prototype.getDinos = function(displayFunction){
    $.get('http://dinoipsum.herokuapp.com/api/?format=json&words=' + this.nameList + '&paragraphs=' + this.paragraphSize).then(function(response){
     var finalDino = response[0];
+
     //double deck
     var newDeck = [];
     for(i = 0; i <2; i++){
@@ -12,6 +13,7 @@ Dino.prototype.getDinos = function(displayFunction){
         newDeck.push(dinoName);
       });
     }
+
     //fisher-yates shuffle https://bost.ocks.org/mike/shuffle/
     var m = newDeck.length, t, i;
 
@@ -24,10 +26,21 @@ Dino.prototype.getDinos = function(displayFunction){
         newDeck[m] = newDeck[i];
         newDeck[i] = t;
       }
+
     displayFunction(newDeck);
+
   }).fail(function(error){
     console.log(error);
   });
+};
+
+Dino.prototype.isMatch = function(match){
+  if (match[0] == match[1]){
+    console.log("match");
+    return match;
+  }else{
+    return false;
+  }
 };
 
 

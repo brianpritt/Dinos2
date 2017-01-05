@@ -16,7 +16,7 @@ div.cards {
   flex-wrap: wrap;
 }
 p.name {
-  background-color: $dinoBlue;
+  background-color: $dinoGreen;
   background-image: url("./../../img/baby-37796.svg");
   background-position: center;
   background-size: 60%;
@@ -31,3 +31,22 @@ p.name {
   border-radius: .5em;
   box-shadow: 1px 1px 5px gray;
 }
+// p.name:before {
+//   content: "";
+//   position: absolute;
+//   width: 50%;
+//   height: 50%;
+//   top: -50%;
+//   left: -50%;
+//   background: url("./../../img/baby-37796.svg") center center no-repeat;
+//   -webkit-transform: rotate(-15deg);
+//   animation: animatedBackground .5s 2s 2;
+// }
+
+//
+// @keyframes animatedBackground {
+//   0%, 100% { transform: rotate(-30deg); }
+//   20% {transform:scale(.95);}
+//   50% { transform: rotate(30deg); }
+//   80% {transform:scale(.95);}
+// }

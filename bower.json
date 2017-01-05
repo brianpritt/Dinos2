@@ -3,7 +3,7 @@
   "description": "Dinosaur Matching Game",
   "main": "gulpfile.js",
   "license": "ISC",
-  "homepage": "",
+  "homepage": "https://github.com/suzirubi/dinosaur",
   "ignore": [
     "**/.*",
     "node_modules",
