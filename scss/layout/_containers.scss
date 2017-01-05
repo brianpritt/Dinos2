@@ -16,13 +16,14 @@ div.cards {
   flex-wrap: wrap;
 }
 p {
+  // @include transition(color 0.0s 3.0s ease-in-out);
   background-color: $dinoBlue;
   background-image: url("./../../img/baby-37796.svg");
   background-position: center;
   background-size: 60%;
   background-repeat: no-repeat;
   width: 20%;
-  height: 30%;
+  height: 28%;
   margin: 1%;
   padding: 0em 0em .5em 0em;
   display: flex;
@@ -31,25 +32,23 @@ p {
   border-radius: .5em;
   box-shadow: 1px 1px 5px gray;
   color: $dinoBlue;
+  &:active {
+    color: $white;
+  }
 }
-// p:before {
-//   content: "";
-//   position: absolute;
-//   width: 20%;
-//   height: 20%;
-//   top: 8%;
-//   left: 8%;
-//   background: url("./../../img/baby-37796.svg") center center no-repeat;
-//   // -webkit-transform: rotate(-15deg);
-//   // animation: animatedBackground .5s 2s 2;
-//   z-index: 1000;
-//   color: $dinoBlue;
-// }
-
-//
-// @keyframes animatedBackground {
-//   0%, 100% { transform: rotate(-30deg); }
-//   20% {transform:scale(.95);}
-//   50% { transform: rotate(30deg); }
-//   80% {transform:scale(.95);}
-// }
+.white {
+  color:$white;
+}
+.whiteBkgrd {
+  background-color: $dinoGreen;
+  color: $dinoGrey;
+}
+.gameOver {
+  width: 100%;
+  margin-top: -2em;
+  text-align: center;
+  font-size: 2em;
+  font-family: $stack-dinoDisplay;
+  padding-bottom: 2em;
+  color: $dinoBlue;
+}
