@@ -37,7 +37,7 @@ Dino.prototype.getDinos = function(displayFunction){
 Dino.prototype.isMatch = function(match){
   if (match[0] == match[1]){
     console.log("match");
-    return match;
+    return true;
   }else{
     return false;
   }

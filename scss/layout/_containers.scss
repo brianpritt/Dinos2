@@ -15,8 +15,8 @@ div.cards {
   justify-content: center;
   flex-wrap: wrap;
 }
-p.name {
-  background-color: $dinoGreen;
+p {
+  background-color: $dinoBlue;
   background-image: url("./../../img/baby-37796.svg");
   background-position: center;
   background-size: 60%;
@@ -30,17 +30,20 @@ p.name {
   justify-content: flex-end;
   border-radius: .5em;
   box-shadow: 1px 1px 5px gray;
+  color: $dinoBlue;
 }
-// p.name:before {
+// p:before {
 //   content: "";
 //   position: absolute;
-//   width: 50%;
-//   height: 50%;
-//   top: -50%;
-//   left: -50%;
+//   width: 20%;
+//   height: 20%;
+//   top: 8%;
+//   left: 8%;
 //   background: url("./../../img/baby-37796.svg") center center no-repeat;
-//   -webkit-transform: rotate(-15deg);
-//   animation: animatedBackground .5s 2s 2;
+//   // -webkit-transform: rotate(-15deg);
+//   // animation: animatedBackground .5s 2s 2;
+//   z-index: 1000;
+//   color: $dinoBlue;
 // }
 
 //
