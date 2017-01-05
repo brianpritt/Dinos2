@@ -2,7 +2,7 @@
   "name": "dino",
   "version": "1.0.0",
   "description": "_*Epicodus Javascript Week 1_3 and 1_4 project*_",
-  "main": "index.js",
+  "main": "gulpfile.js",
   "scripts": {
     "test": "echo \"Error: no test specified\" && exit 1"
   },

@@ -1,7 +1,7 @@
 {
   "name": "dino",
   "description": "Dinosaur Matching Game",
-  "main": "index.js",
+  "main": "gulpfile.js",
   "license": "ISC",
   "homepage": "",
   "ignore": [
