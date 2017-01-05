@@ -1,0 +1,13 @@
+p.name {
+  font-family: $stack-dinoSans;
+  font-size: 1.5em;
+  line-height:  $base__line;
+  color: $dinoGrey;
+  text-align: center;
+}
+h1 h2 h3 h4 h5 h6 {
+  font-family: $stack-dinoDisplay;
+  font-size: $base__font-size;
+  line-height:  $base__line;
+  color: $dinoGrey;
+}
