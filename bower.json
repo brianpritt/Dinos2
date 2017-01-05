@@ -1,6 +1,6 @@
 {
   "name": "dino",
-  "description": "Dinosaur Matching Ga",
+  "description": "Dinosaur Matching Game",
   "main": "index.js",
   "license": "ISC",
   "homepage": "",
