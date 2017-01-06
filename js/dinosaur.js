@@ -1,7 +1,10 @@
 function Dino(paragraphSize, nameList) {
   this.paragraphSize = paragraphSize;
   this.nameList = nameList;
+  this.myTries = 0;
+  this.myMatches = 0;
 }
+
 Dino.prototype.getDinos = function(displayFunction){
    $.get('http://dinoipsum.herokuapp.com/api/?format=json&words=' + this.nameList + '&paragraphs=' + this.paragraphSize).then(function(response){
     var finalDino = response[0];
@@ -36,7 +39,6 @@ Dino.prototype.getDinos = function(displayFunction){
 
 Dino.prototype.isMatch = function(match){
   if (match[0] == match[1]){
-    console.log("match");
     return true;
   }else{
     return false;

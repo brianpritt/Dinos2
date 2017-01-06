@@ -45,10 +45,23 @@ p {
 }
 .gameOver {
   width: 100%;
-  margin-top: -2em;
+  margin-top: 0;
   text-align: center;
-  font-size: 2em;
   font-family: $stack-dinoDisplay;
-  padding-bottom: 2em;
-  color: $dinoBlue;
+  h3 {
+    font-size: 2em;
+    margin: 0;
+    padding:0;
+    line-height: 1;
+    color: $dinoBlue;
+  }
+}
+.numberTries {
+  width: 100%;
+  margin-top: -.5em;
+  text-align: center;
+  font-family: $stack-dinoDisplay;
+  font-size: .9em;
+  font-weight: bold;
+  color: $dinoGrey;
 }
